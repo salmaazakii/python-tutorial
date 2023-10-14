@@ -52,13 +52,35 @@
 #     print(k)
 
 # List Comprehensions
-originalList = range(1, 11)
-print("Original (Starting) list of numbers (1 to 10)")
-for x in originalList:
-    print(x)
-print("Displaying the Cubes of 1..10 using the standard for-loop notation")
-for i in range(1, 11):
-    print(i ** 3)
-print("Displaying the cubes by using List Comprehensions")
-cubesUsingListComprehensions = [x ** 3 for x in originalList]
-print(cubesUsingListComprehensions)
+#Example #1
+# originalList = range(1, 11)
+# print("Original (Starting) list of numbers (1 to 10)")
+# for x in originalList:
+#     print(x)
+# print("Displaying the Cubes of 1..10 using the standard for-loop notation")
+# for i in range(1, 11):
+#     print(i ** 3)
+# print("Displaying the cubes by using List Comprehensions")
+# cubesUsingListComprehensions = [x ** 3 for x in originalList]
+# print(cubesUsingListComprehensions)
+
+#Example #2 -- loops
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# n = int(input())
+# output = []
+# x_counter = 0
+# while x_counter <= x:
+#     y_counter = 0
+#     while y_counter <= y:
+#         z_counter = 0
+#         while z_counter <= z:
+#             if x_counter + y_counter + z_counter != n:
+#                 output.append([x_counter, y_counter, z_counter])
+#             z_counter += 1
+#         y_counter += 1
+#     x_counter += 1
+# print(output)
+#[[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 1, 0], [0, 1, 1], [1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 2]]
+
